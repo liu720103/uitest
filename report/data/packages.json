@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.bridge.test_bridge",
+    "children" : [ {
+      "name" : "进入桥梁设施调查界面",
+      "uid" : "f718f095671ae12c",
+      "parentUid" : "2a16627fd45a98555dc07c79a123f7df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598923818132,
+        "stop" : 1598923841857,
+        "duration" : 23725
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "获取桥梁行政区划",
+      "uid" : "9fd013b1958a258c",
+      "parentUid" : "2a16627fd45a98555dc07c79a123f7df",
+      "status" : "failed",
+      "time" : {
+        "start" : 1598923841870,
+        "stop" : 1598923873148,
+        "duration" : 31278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.bridge.test_bridge"
+  } ]
+}

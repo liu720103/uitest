@@ -1,0 +1,112 @@
+{
+  "uid" : "fcfa3eeb05beea6e",
+  "name" : "获取桥梁行政区划",
+  "fullName" : "testcase.bridge.test_bridge.TestupdateUserInfo#test_getLocation",
+  "historyId" : "c067f300526d27e8b224416fc43e9dd6",
+  "time" : {
+    "start" : 1598923500816,
+    "stop" : 1598923501827,
+    "duration" : 1011
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "self = <testcase.bridge.test_bridge.TestupdateUserInfo instance at 0x0000000004327D08>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"37f39b12def938d5edf7c70bd2948262\")>\n\n    @allure.title('获取桥梁行政区划')\n    def test_getLocation(self, driver):\n>       result = getLocation(driver)\n\ntestcase\\bridge\\test_bridge.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntestcase\\bridge\\test_bridge.py:20: in getLocation\n    return bridge.getlacation()\nbusiness\\bridge.py:43: in getlacation\n    location.append(conftest.getText(ele=get_page('北京市')))\nbusiness\\bridge.py:10: in get_page\n    return getPage(modulname='bridge', pagename=pagename)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nmodulname = 'bridge', pagename = '\\xe5\\x8c\\x97\\xe4\\xba\\xac\\xe5\\xb8\\x82'\n\n    def getPage(modulname, pagename):\n        col1 = readExcel.read_excel(sheetname=modulname, col=1)\n        col2 = readExcel.read_excel(sheetname=modulname, col=2)\n        low = 0\n        for i in col1:\n            if i == pagename:\n                break\n            low = low+1\n>       return col2[low]\nE       IndexError: list index out of range\n\npage\\getPage.py:15: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1598923458410,
+      "stop" : 1598923471427,
+      "duration" : 13017
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "self = <testcase.bridge.test_bridge.TestupdateUserInfo instance at 0x0000000004327D08>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"37f39b12def938d5edf7c70bd2948262\")>\n\n    @allure.title('获取桥梁行政区划')\n    def test_getLocation(self, driver):\n>       result = getLocation(driver)\n\ntestcase\\bridge\\test_bridge.py:44: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntestcase\\bridge\\test_bridge.py:20: in getLocation\n    return bridge.getlacation()\nbusiness\\bridge.py:43: in getlacation\n    location.append(conftest.getText(ele=get_page('北京市')))\nbusiness\\bridge.py:10: in get_page\n    return getPage(modulname='bridge', pagename=pagename)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nmodulname = 'bridge', pagename = '\\xe5\\x8c\\x97\\xe4\\xba\\xac\\xe5\\xb8\\x82'\n\n    def getPage(modulname, pagename):\n        col1 = readExcel.read_excel(sheetname=modulname, col=1)\n        col2 = readExcel.read_excel(sheetname=modulname, col=2)\n        low = 0\n        for i in col1:\n            if i == pagename:\n                break\n            low = low+1\n>       return col2[low]\nE       IndexError: list index out of range\n\npage\\getPage.py:15: IndexError",
+    "steps" : [ {
+      "name" : "1、获取桥梁行政区划",
+      "time" : {
+        "start" : 1598923500817,
+        "stop" : 1598923501823,
+        "duration" : 1006
+      },
+      "status" : "broken",
+      "statusMessage" : "IndexError: list index out of range\n",
+      "statusTrace" : "  File \"C:\\Python27\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"D:\\uitest\\testcase\\bridge\\test_bridge.py\", line 20, in getLocation\n    return bridge.getlacation()\n  File \"D:\\uitest\\business\\bridge.py\", line 43, in getlacation\n    location.append(conftest.getText(ele=get_page('\\xe5\\x8c\\x97\\xe4\\xba\\xac\\xe5\\xb8\\x82')))\n  File \"D:\\uitest\\business\\bridge.py\", line 10, in get_page\n    return getPage(modulname='bridge', pagename=pagename)\n  File \"D:\\uitest\\page\\getPage.py\", line 15, in getPage\n    return col2[low]\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"37f39b12def938d5edf7c70bd2948262\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "77e6d602026066cf",
+      "name" : "失败截图",
+      "source" : "77e6d602026066cf.png",
+      "type" : "image/png",
+      "size" : 571110
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "桥梁设施调查"
+  }, {
+    "name" : "suite",
+    "value" : "test_bridge"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestupdateUserInfo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.bridge"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S1FCQ7BB"
+  }, {
+    "name" : "thread",
+    "value" : "19536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.bridge.test_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fcfa3eeb05beea6e.json",
+  "parameterValues" : [ ]
+}

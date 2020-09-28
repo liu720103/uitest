@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f718f095671ae12c",
+  "name" : "进入桥梁设施调查界面",
+  "time" : {
+    "start" : 1598923818132,
+    "stop" : 1598923841857,
+    "duration" : 23725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fd013b1958a258c",
+  "name" : "获取桥梁行政区划",
+  "time" : {
+    "start" : 1598923841870,
+    "stop" : 1598923873148,
+    "duration" : 31278
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

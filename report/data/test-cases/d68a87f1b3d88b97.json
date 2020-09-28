@@ -1,0 +1,100 @@
+{
+  "uid" : "d68a87f1b3d88b97",
+  "name" : "进入桥梁设施调查界面",
+  "fullName" : "testcase.bridge.test_bridge.TestupdateUserInfo#test_intoBridge",
+  "historyId" : "1f80eecf2a778a9a52fb37facc034350",
+  "time" : {
+    "start" : 1598876329616,
+    "stop" : 1598876360952,
+    "duration" : 31336
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1598876318404,
+      "stop" : 1598876329613,
+      "duration" : 11209
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1、进入桥梁设施调查界面",
+      "time" : {
+        "start" : 1598876329617,
+        "stop" : 1598876360952,
+        "duration" : 31335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"49fc858d2f1834951839b297d92fe714\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "桥梁设施调查"
+  }, {
+    "name" : "suite",
+    "value" : "test_bridge"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestupdateUserInfo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.bridge"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S1FCQ7BB"
+  }, {
+    "name" : "thread",
+    "value" : "26308-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.bridge.test_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d68a87f1b3d88b97.json",
+  "parameterValues" : [ ]
+}

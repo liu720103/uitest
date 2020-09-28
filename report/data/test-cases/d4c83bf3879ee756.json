@@ -1,0 +1,110 @@
+{
+  "uid" : "d4c83bf3879ee756",
+  "name" : "获取桥梁行政区划",
+  "fullName" : "testcase.bridge.test_bridge.TestupdateUserInfo#test_getLocation",
+  "historyId" : "c067f300526d27e8b224416fc43e9dd6",
+  "time" : {
+    "start" : 1598922463064,
+    "stop" : 1598922464785,
+    "duration" : 1721
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '北京市山东省' == '北京市'\n  - 北京市山东省\n  + 北京市",
+  "statusTrace" : "self = <testcase.bridge.test_bridge.TestupdateUserInfo instance at 0x0000000004937408>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"76bbe58ea78ea623bbc7ab4257a6b22e\")>\n\n    @allure.title('获取桥梁行政区划')\n    def test_getLocation(self, driver):\n        result = getLocation(driver)\n>       assert result[0] == u'北京市'\nE       AssertionError: assert '北京市山东省' == '北京市'\nE         - 北京市山东省\nE         + 北京市\n\ntestcase\\bridge\\test_bridge.py:45: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1598922432605,
+      "stop" : 1598922443061,
+      "duration" : 10456
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '北京市山东省' == '北京市'\n  - 北京市山东省\n  + 北京市",
+    "statusTrace" : "self = <testcase.bridge.test_bridge.TestupdateUserInfo instance at 0x0000000004937408>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"76bbe58ea78ea623bbc7ab4257a6b22e\")>\n\n    @allure.title('获取桥梁行政区划')\n    def test_getLocation(self, driver):\n        result = getLocation(driver)\n>       assert result[0] == u'北京市'\nE       AssertionError: assert '北京市山东省' == '北京市'\nE         - 北京市山东省\nE         + 北京市\n\ntestcase\\bridge\\test_bridge.py:45: AssertionError",
+    "steps" : [ {
+      "name" : "1、获取桥梁行政区划",
+      "time" : {
+        "start" : 1598922463064,
+        "stop" : 1598922464784,
+        "duration" : 1720
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"76bbe58ea78ea623bbc7ab4257a6b22e\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "af1a6c0c96143f93",
+      "name" : "失败截图",
+      "source" : "af1a6c0c96143f93.png",
+      "type" : "image/png",
+      "size" : 644406
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "桥梁设施调查"
+  }, {
+    "name" : "suite",
+    "value" : "test_bridge"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestupdateUserInfo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.bridge"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S1FCQ7BB"
+  }, {
+    "name" : "thread",
+    "value" : "24216-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.bridge.test_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4c83bf3879ee756.json",
+  "parameterValues" : [ ]
+}

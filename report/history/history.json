@@ -1,0 +1,41 @@
+{
+  "c067f300526d27e8b224416fc43e9dd6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9fd013b1958a258c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert None == '北京市'",
+      "time" : {
+        "start" : 1598923841870,
+        "stop" : 1598923873148,
+        "duration" : 31278
+      }
+    } ]
+  },
+  "1f80eecf2a778a9a52fb37facc034350" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f718f095671ae12c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1598923818132,
+        "stop" : 1598923841857,
+        "duration" : 23725
+      }
+    } ]
+  }
+}

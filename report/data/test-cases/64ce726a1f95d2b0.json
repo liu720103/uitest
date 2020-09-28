@@ -1,0 +1,106 @@
+{
+  "uid" : "64ce726a1f95d2b0",
+  "name" : "获取桥梁行政区划",
+  "fullName" : "testcase.bridge.test_bridge.TestupdateUserInfo#test_getLocation",
+  "historyId" : "c067f300526d27e8b224416fc43e9dd6",
+  "time" : {
+    "start" : 1598876771539,
+    "stop" : 1598876802823,
+    "duration" : 31284
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1598876705703,
+      "stop" : 1598876715852,
+      "duration" : 10149
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1、获取桥梁行政区划",
+      "time" : {
+        "start" : 1598876771539,
+        "stop" : 1598876802823,
+        "duration" : 31284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"40f9345dfb7bce60a2f7c4cc3918cb10\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "5b1f8798d838cc6c",
+      "name" : "stdout",
+      "source" : "5b1f8798d838cc6c.txt",
+      "type" : "text/plain",
+      "size" : 35
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "桥梁设施调查"
+  }, {
+    "name" : "suite",
+    "value" : "test_bridge"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestupdateUserInfo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.bridge"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S1FCQ7BB"
+  }, {
+    "name" : "thread",
+    "value" : "22284-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.bridge.test_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64ce726a1f95d2b0.json",
+  "parameterValues" : [ ]
+}

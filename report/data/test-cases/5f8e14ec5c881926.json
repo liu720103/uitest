@@ -1,0 +1,85 @@
+{
+  "uid" : "5f8e14ec5c881926",
+  "name" : "进入桥梁设施调查界面",
+  "fullName" : "testcase.bridge.test_bridge.TestupdateUserInfo#test_intoBridge",
+  "historyId" : "1f80eecf2a778a9a52fb37facc034350",
+  "time" : {
+    "start" : 1598923634195,
+    "stop" : 1598923658369,
+    "duration" : 24174
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1、进入桥梁设施调查界面",
+      "time" : {
+        "start" : 1598923634196,
+        "stop" : 1598923658368,
+        "duration" : 24172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "driver",
+        "value" : "<selenium.webdriver.chrome.webdriver.WebDriver (session=\"ce9949ef1ba0b364dcf142576d74f02f\")>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "桥梁设施调查"
+  }, {
+    "name" : "suite",
+    "value" : "test_bridge"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestupdateUserInfo"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.bridge"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-S1FCQ7BB"
+  }, {
+    "name" : "thread",
+    "value" : "28164-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython2"
+  }, {
+    "name" : "package",
+    "value" : "testcase.bridge.test_bridge"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f8e14ec5c881926.json",
+  "parameterValues" : [ ]
+}

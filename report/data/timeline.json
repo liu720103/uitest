@@ -1,0 +1,493 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-S1FCQ7BB",
+    "children" : [ {
+      "name" : "32016-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "384ddaca97de8c58",
+        "parentUid" : "f34903d0d39d1984ed034765eb2ace93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598921878055,
+          "stop" : 1598921900495,
+          "duration" : 22440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "4aced3c1936de13e",
+        "parentUid" : "f34903d0d39d1984ed034765eb2ace93",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598921900506,
+          "stop" : 1598921902192,
+          "duration" : 1686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f34903d0d39d1984ed034765eb2ace93"
+    }, {
+      "name" : "14184-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "2ac380f086b4bea9",
+        "parentUid" : "a9312b6b2e17904f4cc44fccf447c35c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598877035941,
+          "stop" : 1598877066932,
+          "duration" : 30991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "aff640c5e02bb92b",
+        "parentUid" : "a9312b6b2e17904f4cc44fccf447c35c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876990299,
+          "stop" : 1598877035931,
+          "duration" : 45632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9312b6b2e17904f4cc44fccf447c35c"
+    }, {
+      "name" : "24216-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "691b0dc4724577f2",
+        "parentUid" : "cabd320deb76e8342cbe0d144d53a0cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598922443067,
+          "stop" : 1598922463057,
+          "duration" : 19990
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "d4c83bf3879ee756",
+        "parentUid" : "cabd320deb76e8342cbe0d144d53a0cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598922463064,
+          "stop" : 1598922464785,
+          "duration" : 1721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cabd320deb76e8342cbe0d144d53a0cd"
+    }, {
+      "name" : "28012-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "d023a4bfa1a7c4c9",
+        "parentUid" : "fc62651980ee2e5b5f4874561f5be11b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598875592165,
+          "stop" : 1598875625025,
+          "duration" : 32860
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "a97789cc439f58df",
+        "parentUid" : "fc62651980ee2e5b5f4874561f5be11b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598875625036,
+          "stop" : 1598875626592,
+          "duration" : 1556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc62651980ee2e5b5f4874561f5be11b"
+    }, {
+      "name" : "26308-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "3f853aa54d6b37a0",
+        "parentUid" : "533493a67633678d358454df8767196e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598876360958,
+          "stop" : 1598876392170,
+          "duration" : 31212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "d68a87f1b3d88b97",
+        "parentUid" : "533493a67633678d358454df8767196e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876329616,
+          "stop" : 1598876360952,
+          "duration" : 31336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "533493a67633678d358454df8767196e"
+    }, {
+      "name" : "31892-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "1d44b951dcddad36",
+        "parentUid" : "014dc5d9aa3a91d3feef42e6998fe1b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598921993128,
+          "stop" : 1598922012607,
+          "duration" : 19479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "7bb3b7504bb04f94",
+        "parentUid" : "014dc5d9aa3a91d3feef42e6998fe1b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598922012612,
+          "stop" : 1598922014186,
+          "duration" : 1574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "014dc5d9aa3a91d3feef42e6998fe1b1"
+    }, {
+      "name" : "26632-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "c2d4798ac199b805",
+        "parentUid" : "568b422662a704a855bee9c8c9668d1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598922082726,
+          "stop" : 1598922102184,
+          "duration" : 19458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "4c5cf5d78e2851b",
+        "parentUid" : "568b422662a704a855bee9c8c9668d1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598922102193,
+          "stop" : 1598922103383,
+          "duration" : 1190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "568b422662a704a855bee9c8c9668d1d"
+    }, {
+      "name" : "19536-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "fcfa3eeb05beea6e",
+        "parentUid" : "b3bc7a02b9f0778bc95ae392434e25f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598923500816,
+          "stop" : 1598923501827,
+          "duration" : 1011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "492fd356dac807a4",
+        "parentUid" : "b3bc7a02b9f0778bc95ae392434e25f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598923471430,
+          "stop" : 1598923500809,
+          "duration" : 29379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3bc7a02b9f0778bc95ae392434e25f8"
+    }, {
+      "name" : "28164-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "5f8e14ec5c881926",
+        "parentUid" : "9549432a95df5ccde263b3e5310b435f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598923634195,
+          "stop" : 1598923658369,
+          "duration" : 24174
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9549432a95df5ccde263b3e5310b435f"
+    }, {
+      "name" : "27252-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "44630c9797ad5bde",
+        "parentUid" : "7c5045f2290df4aeb54218225855f2db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598877673180,
+          "stop" : 1598877716084,
+          "duration" : 42904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "3fd9b37afb5532e1",
+        "parentUid" : "7c5045f2290df4aeb54218225855f2db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598877653180,
+          "stop" : 1598877673166,
+          "duration" : 19986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c5045f2290df4aeb54218225855f2db"
+    }, {
+      "name" : "16632-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "6faa0c094cb547ff",
+        "parentUid" : "c36a5a48684bf4ad3edcd2cd81b0ea91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598876048364,
+          "stop" : 1598876171059,
+          "duration" : 122695
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "8a88300f550a681d",
+        "parentUid" : "c36a5a48684bf4ad3edcd2cd81b0ea91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876017368,
+          "stop" : 1598876048354,
+          "duration" : 30986
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c36a5a48684bf4ad3edcd2cd81b0ea91"
+    }, {
+      "name" : "26940-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "9fd013b1958a258c",
+        "parentUid" : "5bbb05be7b3aa01d82df2cbc8d9ce16b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598923841870,
+          "stop" : 1598923873148,
+          "duration" : 31278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "f718f095671ae12c",
+        "parentUid" : "5bbb05be7b3aa01d82df2cbc8d9ce16b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598923818132,
+          "stop" : 1598923841857,
+          "duration" : 23725
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5bbb05be7b3aa01d82df2cbc8d9ce16b"
+    }, {
+      "name" : "25144-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "3c6e3923981da8ce",
+        "parentUid" : "63b26c3070740ba7a6dc9f5c6470c051",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598921796986,
+          "stop" : 1598921798808,
+          "duration" : 1822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "cf120616996ea15f",
+        "parentUid" : "63b26c3070740ba7a6dc9f5c6470c051",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598921776928,
+          "stop" : 1598921796976,
+          "duration" : 20048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "63b26c3070740ba7a6dc9f5c6470c051"
+    }, {
+      "name" : "22700-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "9602dd28c17f766a",
+        "parentUid" : "40e541d9ce9a63c300382681a1396283",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876474697,
+          "stop" : 1598876505813,
+          "duration" : 31116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "e927f275745815b1",
+        "parentUid" : "40e541d9ce9a63c300382681a1396283",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876441776,
+          "stop" : 1598876474692,
+          "duration" : 32916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40e541d9ce9a63c300382681a1396283"
+    }, {
+      "name" : "22284-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "64ce726a1f95d2b0",
+        "parentUid" : "bdec0a810b64a7ffdcd6384961ac2dbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876771539,
+          "stop" : 1598876802823,
+          "duration" : 31284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "ccb541c644f03e79",
+        "parentUid" : "bdec0a810b64a7ffdcd6384961ac2dbe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876715856,
+          "stop" : 1598876771530,
+          "duration" : 55674
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdec0a810b64a7ffdcd6384961ac2dbe"
+    }, {
+      "name" : "20348-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "8fd6545c6afdefca",
+        "parentUid" : "a51f927c687e7364de3480b5d95ad75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598875727345,
+          "stop" : 1598875772089,
+          "duration" : 44744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a51f927c687e7364de3480b5d95ad75d"
+    }, {
+      "name" : "24304-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "730c11a5aad54860",
+        "parentUid" : "623049dcf2fe804955af93a9a388905b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598877517703,
+          "stop" : 1598877528972,
+          "duration" : 11269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "373f95280b90b288",
+        "parentUid" : "623049dcf2fe804955af93a9a388905b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598877496180,
+          "stop" : 1598877517696,
+          "duration" : 21516
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "623049dcf2fe804955af93a9a388905b"
+    } ],
+    "uid" : "c90bfd4433d1bb1545e77199f1b07966"
+  } ]
+}
