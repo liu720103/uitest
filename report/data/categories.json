@@ -7,7 +7,7 @@
       "name" : "AssertionError: assert None == '北京市'",
       "children" : [ {
         "name" : "获取桥梁行政区划",
-        "uid" : "9fd013b1958a258c",
+        "uid" : "8a4266e02efcda4e",
         "parentUid" : "fa94991eddae848f5f526bf0cc2bf434",
         "status" : "failed",
         "time" : {
@@ -20,6 +20,23 @@
         "parameters" : [ ]
       } ],
       "uid" : "fa94991eddae848f5f526bf0cc2bf434"
+    }, {
+      "name" : "AssertionError: assert '全国房屋建筑和市政设施普查系统' == '全国房屋建筑和市政设施风险普查系统'\n  - 全国房屋建筑和市政设施普查系统\n  + 全国房屋建筑和市政设施风险普查系统\n  ?            ++",
+      "children" : [ {
+        "name" : "输入符合格式的密码",
+        "uid" : "53ec4eedd762466e",
+        "parentUid" : "7f1df9583da2eacc8c1b3bcf926872e7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603174373070,
+          "stop" : 1603174386492,
+          "duration" : 13422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7f1df9583da2eacc8c1b3bcf926872e7"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

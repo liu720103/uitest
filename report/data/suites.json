@@ -9,7 +9,7 @@
         "name" : "TestupdateUserInfo",
         "children" : [ {
           "name" : "进入桥梁设施调查界面",
-          "uid" : "f718f095671ae12c",
+          "uid" : "d858fc06708b4763",
           "parentUid" : "f236391e483b51dc655c366e62fd2357",
           "status" : "passed",
           "time" : {
@@ -22,7 +22,7 @@
           "parameters" : [ ]
         }, {
           "name" : "获取桥梁行政区划",
-          "uid" : "9fd013b1958a258c",
+          "uid" : "8a4266e02efcda4e",
           "parentUid" : "f236391e483b51dc655c366e62fd2357",
           "status" : "failed",
           "time" : {
@@ -39,5 +39,237 @@
       "uid" : "aed596c450e0d6de751f9b7b4cf0e311"
     } ],
     "uid" : "32f39bea015b493e98674cd775a73d07"
+  }, {
+    "name" : "testcase.login",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Testlogin",
+        "children" : [ {
+          "name" : "查看APP二维码下载",
+          "uid" : "a1ce14bad406ae15",
+          "parentUid" : "bcd51d7ba6981f5dcec5eddf5292559c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174234881,
+            "stop" : 1603174235686,
+            "duration" : 805
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入正确账号错误密码",
+          "uid" : "9d9200d39a21bce6",
+          "parentUid" : "bcd51d7ba6981f5dcec5eddf5292559c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174235692,
+            "stop" : 1603174237372,
+            "duration" : 1680
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入空用户",
+          "uid" : "a51aedce49bd6ad7",
+          "parentUid" : "bcd51d7ba6981f5dcec5eddf5292559c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174237375,
+            "stop" : 1603174237818,
+            "duration" : 443
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入空密码",
+          "uid" : "fd08751a2361c53b",
+          "parentUid" : "bcd51d7ba6981f5dcec5eddf5292559c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174237914,
+            "stop" : 1603174238325,
+            "duration" : 411
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入正确账号正确密码",
+          "uid" : "13828c92700b4f82",
+          "parentUid" : "bcd51d7ba6981f5dcec5eddf5292559c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174238329,
+            "stop" : 1603174240693,
+            "duration" : 2364
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bcd51d7ba6981f5dcec5eddf5292559c"
+      } ],
+      "uid" : "ed45a493a1cfc6614d323d50234ca9aa"
+    } ],
+    "uid" : "e46053f8cfb9c597ea92a1f8cadf732c"
+  }, {
+    "name" : "testcase.updateUserInfo",
+    "children" : [ {
+      "name" : "test_updateUserInfo",
+      "children" : [ {
+        "name" : "TestupdateUserInfo",
+        "children" : [ {
+          "name" : "进入修改用户界面",
+          "uid" : "efb8317a77facbed",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174250568,
+            "stop" : 1603174315689,
+            "duration" : 65121
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "查看用户名用户账号",
+          "uid" : "7495036e3f13c63b",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174315695,
+            "stop" : 1603174325687,
+            "duration" : 9992
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "不输入原密码修改用户名",
+          "uid" : "881499e03035dac8",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174325697,
+            "stop" : 1603174327121,
+            "duration" : 1424
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入原密码修改用户名",
+          "uid" : "79d80942cfba6b80",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174327178,
+            "stop" : 1603174335471,
+            "duration" : 8293
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入不合法的身份证号码",
+          "uid" : "6084203b14c0f990",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174335482,
+            "stop" : 1603174338300,
+            "duration" : 2818
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入合法身份证号",
+          "uid" : "7d003d43352aaf93",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174338303,
+            "stop" : 1603174350962,
+            "duration" : 12659
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入不合法手机号码",
+          "uid" : "c94be6907210ef45",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174350972,
+            "stop" : 1603174353438,
+            "duration" : 2466
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入合法手机号码",
+          "uid" : "e732f6cb5c9a36e0",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174353441,
+            "stop" : 1603174365562,
+            "duration" : 12121
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入新密码与确认密码不一致",
+          "uid" : "c6183561228882fc",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174365566,
+            "stop" : 1603174369386,
+            "duration" : 3820
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入密码强度弱的密码",
+          "uid" : "ff7dfcfc2da4e4ed",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "passed",
+          "time" : {
+            "start" : 1603174369390,
+            "stop" : 1603174373063,
+            "duration" : 3673
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "输入符合格式的密码",
+          "uid" : "53ec4eedd762466e",
+          "parentUid" : "ef15eef1d9bb3077cf316c1bb456b888",
+          "status" : "failed",
+          "time" : {
+            "start" : 1603174373070,
+            "stop" : 1603174386492,
+            "duration" : 13422
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "ef15eef1d9bb3077cf316c1bb456b888"
+      } ],
+      "uid" : "2847fbb3a02430b1d41ba77ac86eb0b6"
+    } ],
+    "uid" : "8828b9a1d50a948a77bab6cdd6e9a433"
   } ]
 }

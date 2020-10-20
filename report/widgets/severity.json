@@ -1,5 +1,115 @@
 [ {
-  "uid" : "9fd013b1958a258c",
+  "uid" : "a1ce14bad406ae15",
+  "name" : "查看APP二维码下载",
+  "time" : {
+    "start" : 1603174234881,
+    "stop" : 1603174235686,
+    "duration" : 805
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53ec4eedd762466e",
+  "name" : "输入符合格式的密码",
+  "time" : {
+    "start" : 1603174373070,
+    "stop" : 1603174386492,
+    "duration" : 13422
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff7dfcfc2da4e4ed",
+  "name" : "输入密码强度弱的密码",
+  "time" : {
+    "start" : 1603174369390,
+    "stop" : 1603174373063,
+    "duration" : 3673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6084203b14c0f990",
+  "name" : "输入不合法的身份证号码",
+  "time" : {
+    "start" : 1603174335482,
+    "stop" : 1603174338300,
+    "duration" : 2818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "881499e03035dac8",
+  "name" : "不输入原密码修改用户名",
+  "time" : {
+    "start" : 1603174325697,
+    "stop" : 1603174327121,
+    "duration" : 1424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7495036e3f13c63b",
+  "name" : "查看用户名用户账号",
+  "time" : {
+    "start" : 1603174315695,
+    "stop" : 1603174325687,
+    "duration" : 9992
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d9200d39a21bce6",
+  "name" : "输入正确账号错误密码",
+  "time" : {
+    "start" : 1603174235692,
+    "stop" : 1603174237372,
+    "duration" : 1680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6183561228882fc",
+  "name" : "输入新密码与确认密码不一致",
+  "time" : {
+    "start" : 1603174365566,
+    "stop" : 1603174369386,
+    "duration" : 3820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efb8317a77facbed",
+  "name" : "进入修改用户界面",
+  "time" : {
+    "start" : 1603174250568,
+    "stop" : 1603174315689,
+    "duration" : 65121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79d80942cfba6b80",
+  "name" : "输入原密码修改用户名",
+  "time" : {
+    "start" : 1603174327178,
+    "stop" : 1603174335471,
+    "duration" : 8293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c94be6907210ef45",
+  "name" : "输入不合法手机号码",
+  "time" : {
+    "start" : 1603174350972,
+    "stop" : 1603174353438,
+    "duration" : 2466
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a4266e02efcda4e",
   "name" : "获取桥梁行政区划",
   "time" : {
     "start" : 1598923841870,
@@ -9,12 +119,62 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "f718f095671ae12c",
+  "uid" : "a51aedce49bd6ad7",
+  "name" : "输入空用户",
+  "time" : {
+    "start" : 1603174237375,
+    "stop" : 1603174237818,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d858fc06708b4763",
   "name" : "进入桥梁设施调查界面",
   "time" : {
     "start" : 1598923818132,
     "stop" : 1598923841857,
     "duration" : 23725
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13828c92700b4f82",
+  "name" : "输入正确账号正确密码",
+  "time" : {
+    "start" : 1603174238329,
+    "stop" : 1603174240693,
+    "duration" : 2364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e732f6cb5c9a36e0",
+  "name" : "输入合法手机号码",
+  "time" : {
+    "start" : 1603174353441,
+    "stop" : 1603174365562,
+    "duration" : 12121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d003d43352aaf93",
+  "name" : "输入合法身份证号",
+  "time" : {
+    "start" : 1603174338303,
+    "stop" : 1603174350962,
+    "duration" : 12659
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd08751a2361c53b",
+  "name" : "输入空密码",
+  "time" : {
+    "start" : 1603174237914,
+    "stop" : 1603174238325,
+    "duration" : 411
   },
   "status" : "passed",
   "severity" : "normal"

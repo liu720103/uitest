@@ -1,4 +1,0 @@
-xpath>>//option[@value="110100"]
-xpath>>//option[@value="110111"]
-xpath>>//option[@value="110111105000"]
-xpath>>//option[@value="110000"]

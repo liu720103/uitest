@@ -140,7 +140,7 @@ def pytest_runtest_makereport(item):
         report.extra = extra
 "关闭浏览器"
 def closeBrowser():
-    driver.quit()
+    driver.close()
 
 #driver()
 #send_keys(ele="username",content="fstest3")

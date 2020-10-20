@@ -10,8 +10,8 @@ def runCase(testpy):
 if __name__=="__main__":
     threads = []
 
-    #testpys = ['testcase/login/test_login.py', 'testcase/userManager/test_userManager.py', 'testcase/updateUserInfo/test_updateUserInfo.py']
-    testpys = ['testcase/bridge/test_bridge.py']
+    testpys = ['testcase/login/test_login.py','testcase/updateUserInfo/test_updateUserInfo.py']
+               #, 'testcase/userManager/test_userManager.py']
     for i in testpys:
         t = threading.Thread(target=runCase(i))
         threads.append(t)

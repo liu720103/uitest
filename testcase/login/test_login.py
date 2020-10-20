@@ -64,6 +64,7 @@ class Testlogin():
 
     @allure.title('输入正确账号正确密码')
     def test_login(self, driver):
-        assert u"全国房屋建筑和市政设施风险普查系统" == login(driver)
+        assert u"全国房屋建筑和市政设施普查系统" == login(driver)
+        closeBrower(driver)
 
 

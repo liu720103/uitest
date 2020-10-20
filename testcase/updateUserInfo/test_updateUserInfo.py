@@ -138,4 +138,5 @@ class TestupdateUserInfo():
 
     @allure.title('输入符合格式的密码')
     def test_rightPW(self, driver, pw='aA123456'):
-        assert rightPW(driver, pw) == u'全国房屋建筑和市政设施风险普查系统'
+        assert rightPW(driver, pw) == u'全国房屋建筑和市政设施普查系统'
+        closeBrowser(driver)

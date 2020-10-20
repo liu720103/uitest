@@ -4,23 +4,459 @@
   "children" : [ {
     "name" : "LAPTOP-S1FCQ7BB",
     "children" : [ {
-      "name" : "32016-MainThread",
+      "name" : "26196-MainThread",
       "children" : [ {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "384ddaca97de8c58",
-        "parentUid" : "f34903d0d39d1984ed034765eb2ace93",
+        "name" : "进入修改用户界面",
+        "uid" : "efb8317a77facbed",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
         "status" : "passed",
         "time" : {
-          "start" : 1598921878055,
-          "stop" : 1598921900495,
-          "duration" : 22440
+          "start" : 1603174250568,
+          "stop" : 1603174315689,
+          "duration" : 65121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入密码强度弱的密码",
+        "uid" : "ff7dfcfc2da4e4ed",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174369390,
+          "stop" : 1603174373063,
+          "duration" : 3673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看APP二维码下载",
+        "uid" : "a1ce14bad406ae15",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174234881,
+          "stop" : 1603174235686,
+          "duration" : 805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入新密码与确认密码不一致",
+        "uid" : "c6183561228882fc",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174365566,
+          "stop" : 1603174369386,
+          "duration" : 3820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入原密码修改用户名",
+        "uid" : "79d80942cfba6b80",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174327178,
+          "stop" : 1603174335471,
+          "duration" : 8293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入不合法手机号码",
+        "uid" : "c94be6907210ef45",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174350972,
+          "stop" : 1603174353438,
+          "duration" : 2466
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入合法身份证号",
+        "uid" : "7d003d43352aaf93",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174338303,
+          "stop" : 1603174350962,
+          "duration" : 12659
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入符合格式的密码",
+        "uid" : "53ec4eedd762466e",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603174373070,
+          "stop" : 1603174386492,
+          "duration" : 13422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入空用户",
+        "uid" : "a51aedce49bd6ad7",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174237375,
+          "stop" : 1603174237818,
+          "duration" : 443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确账号正确密码",
+        "uid" : "13828c92700b4f82",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174238329,
+          "stop" : 1603174240693,
+          "duration" : 2364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入空密码",
+        "uid" : "fd08751a2361c53b",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174237914,
+          "stop" : 1603174238325,
+          "duration" : 411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入不合法的身份证号码",
+        "uid" : "6084203b14c0f990",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174335482,
+          "stop" : 1603174338300,
+          "duration" : 2818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "不输入原密码修改用户名",
+        "uid" : "881499e03035dac8",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174325697,
+          "stop" : 1603174327121,
+          "duration" : 1424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看用户名用户账号",
+        "uid" : "7495036e3f13c63b",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174315695,
+          "stop" : 1603174325687,
+          "duration" : 9992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确账号错误密码",
+        "uid" : "9d9200d39a21bce6",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174235692,
+          "stop" : 1603174237372,
+          "duration" : 1680
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入合法手机号码",
+        "uid" : "e732f6cb5c9a36e0",
+        "parentUid" : "da8298f086f7a32a36c2a6610383b20a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603174353441,
+          "stop" : 1603174365562,
+          "duration" : 12121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da8298f086f7a32a36c2a6610383b20a"
+    }, {
+      "name" : "420-MainThread",
+      "children" : [ {
+        "name" : "查看APP二维码下载",
+        "uid" : "77a219412ebe6efd",
+        "parentUid" : "407fd38e7cd4bbb78d55fcda3a49729d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173664616,
+          "stop" : 1603173665407,
+          "duration" : 791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确账号正确密码",
+        "uid" : "174ae4593f668e1a",
+        "parentUid" : "407fd38e7cd4bbb78d55fcda3a49729d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603173667850,
+          "stop" : 1603173670208,
+          "duration" : 2358
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入空用户",
+        "uid" : "debc114b9736b284",
+        "parentUid" : "407fd38e7cd4bbb78d55fcda3a49729d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173667012,
+          "stop" : 1603173667439,
+          "duration" : 427
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确账号错误密码",
+        "uid" : "11ceddc73c11066d",
+        "parentUid" : "407fd38e7cd4bbb78d55fcda3a49729d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173665414,
+          "stop" : 1603173667008,
+          "duration" : 1594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入空密码",
+        "uid" : "d746b6a7c0f8815e",
+        "parentUid" : "407fd38e7cd4bbb78d55fcda3a49729d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173667443,
+          "stop" : 1603173667843,
+          "duration" : 400
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "407fd38e7cd4bbb78d55fcda3a49729d"
+    }, {
+      "name" : "25264-MainThread",
+      "children" : [ {
+        "name" : "查看APP二维码下载",
+        "uid" : "ee0e582672fcb4ab",
+        "parentUid" : "6ca3b52551f547296576fe2335860cb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173803710,
+          "stop" : 1603173804540,
+          "duration" : 830
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入空密码",
+        "uid" : "d5119f00a4a15998",
+        "parentUid" : "6ca3b52551f547296576fe2335860cb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173806702,
+          "stop" : 1603173807111,
+          "duration" : 409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入空用户",
+        "uid" : "1d6a14b7fdf5276e",
+        "parentUid" : "6ca3b52551f547296576fe2335860cb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173806201,
+          "stop" : 1603173806697,
+          "duration" : 496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确账号错误密码",
+        "uid" : "5ac687853586bcba",
+        "parentUid" : "6ca3b52551f547296576fe2335860cb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173804545,
+          "stop" : 1603173806180,
+          "duration" : 1635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确账号正确密码",
+        "uid" : "4a255ebc45c148a0",
+        "parentUid" : "6ca3b52551f547296576fe2335860cb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173807115,
+          "stop" : 1603173809397,
+          "duration" : 2282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ca3b52551f547296576fe2335860cb3"
+    }, {
+      "name" : "27556-MainThread",
+      "children" : [ {
+        "name" : "输入正确账号正确密码",
+        "uid" : "ea9a87983075743a",
+        "parentUid" : "179a63da8bad62acc7bc2079f2afedf9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603173240289,
+          "stop" : 1603173242571,
+          "duration" : 2282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查看APP二维码下载",
+        "uid" : "dd220e32a512492c",
+        "parentUid" : "179a63da8bad62acc7bc2079f2afedf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173236809,
+          "stop" : 1603173237612,
+          "duration" : 803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入空密码",
+        "uid" : "48ef8a35b45bd55f",
+        "parentUid" : "179a63da8bad62acc7bc2079f2afedf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173239802,
+          "stop" : 1603173240284,
+          "duration" : 482
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确账号错误密码",
+        "uid" : "4fb93fa4e1b2f432",
+        "parentUid" : "179a63da8bad62acc7bc2079f2afedf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173237620,
+          "stop" : 1603173239288,
+          "duration" : 1668
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入空用户",
+        "uid" : "4e14af91f13cbced",
+        "parentUid" : "179a63da8bad62acc7bc2079f2afedf9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173239292,
+          "stop" : 1603173239796,
+          "duration" : 504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "179a63da8bad62acc7bc2079f2afedf9"
+    }, {
+      "name" : "16632-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "804cfb5e889ee55a",
+        "parentUid" : "c36a5a48684bf4ad3edcd2cd81b0ea91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876017368,
+          "stop" : 1598876048354,
+          "duration" : 30986
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "获取桥梁行政区划",
-        "uid" : "4aced3c1936de13e",
+        "uid" : "3d240d85d2201867",
+        "parentUid" : "c36a5a48684bf4ad3edcd2cd81b0ea91",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598876048364,
+          "stop" : 1598876171059,
+          "duration" : 122695
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c36a5a48684bf4ad3edcd2cd81b0ea91"
+    }, {
+      "name" : "32016-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "a333ab71a72a7466",
         "parentUid" : "f34903d0d39d1984ed034765eb2ace93",
         "status" : "failed",
         "time" : {
@@ -31,223 +467,194 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "a7c318addbd2a4e",
+        "parentUid" : "f34903d0d39d1984ed034765eb2ace93",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598921878055,
+          "stop" : 1598921900495,
+          "duration" : 22440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "f34903d0d39d1984ed034765eb2ace93"
     }, {
-      "name" : "14184-MainThread",
+      "name" : "25980-MainThread",
       "children" : [ {
-        "name" : "获取桥梁行政区划",
-        "uid" : "2ac380f086b4bea9",
-        "parentUid" : "a9312b6b2e17904f4cc44fccf447c35c",
+        "name" : "输入空用户",
+        "uid" : "579a639cdc1508af",
+        "parentUid" : "1449fa118f4d31c4023c65baca354f5e",
         "status" : "passed",
         "time" : {
-          "start" : 1598877035941,
-          "stop" : 1598877066932,
-          "duration" : 30991
+          "start" : 1603173363089,
+          "stop" : 1603173363472,
+          "duration" : 383
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "aff640c5e02bb92b",
-        "parentUid" : "a9312b6b2e17904f4cc44fccf447c35c",
+        "name" : "查看APP二维码下载",
+        "uid" : "c74d13270bdf9678",
+        "parentUid" : "1449fa118f4d31c4023c65baca354f5e",
         "status" : "passed",
         "time" : {
-          "start" : 1598876990299,
-          "stop" : 1598877035931,
-          "duration" : 45632
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a9312b6b2e17904f4cc44fccf447c35c"
-    }, {
-      "name" : "24216-MainThread",
-      "children" : [ {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "691b0dc4724577f2",
-        "parentUid" : "cabd320deb76e8342cbe0d144d53a0cd",
-        "status" : "passed",
-        "time" : {
-          "start" : 1598922443067,
-          "stop" : 1598922463057,
-          "duration" : 19990
+          "start" : 1603173360491,
+          "stop" : 1603173361334,
+          "duration" : 843
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "获取桥梁行政区划",
-        "uid" : "d4c83bf3879ee756",
-        "parentUid" : "cabd320deb76e8342cbe0d144d53a0cd",
+        "name" : "输入正确账号错误密码",
+        "uid" : "12fb52e6e116503f",
+        "parentUid" : "1449fa118f4d31c4023c65baca354f5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173361338,
+          "stop" : 1603173363083,
+          "duration" : 1745
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入空密码",
+        "uid" : "990eebd27eaae095",
+        "parentUid" : "1449fa118f4d31c4023c65baca354f5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603173363476,
+          "stop" : 1603173363856,
+          "duration" : 380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "输入正确账号正确密码",
+        "uid" : "aa9ccfcf79091447",
+        "parentUid" : "1449fa118f4d31c4023c65baca354f5e",
         "status" : "failed",
         "time" : {
-          "start" : 1598922463064,
-          "stop" : 1598922464785,
-          "duration" : 1721
+          "start" : 1603173363862,
+          "stop" : 1603173366127,
+          "duration" : 2265
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cabd320deb76e8342cbe0d144d53a0cd"
+      "uid" : "1449fa118f4d31c4023c65baca354f5e"
     }, {
-      "name" : "28012-MainThread",
+      "name" : "27252-MainThread",
       "children" : [ {
         "name" : "进入桥梁设施调查界面",
-        "uid" : "d023a4bfa1a7c4c9",
-        "parentUid" : "fc62651980ee2e5b5f4874561f5be11b",
+        "uid" : "e4b7f19ab0f333cb",
+        "parentUid" : "7c5045f2290df4aeb54218225855f2db",
         "status" : "passed",
         "time" : {
-          "start" : 1598875592165,
-          "stop" : 1598875625025,
-          "duration" : 32860
+          "start" : 1598877653180,
+          "stop" : 1598877673166,
+          "duration" : 19986
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "获取桥梁行政区划",
-        "uid" : "a97789cc439f58df",
-        "parentUid" : "fc62651980ee2e5b5f4874561f5be11b",
-        "status" : "failed",
+        "uid" : "a14f12f4d5f506",
+        "parentUid" : "7c5045f2290df4aeb54218225855f2db",
+        "status" : "passed",
         "time" : {
-          "start" : 1598875625036,
-          "stop" : 1598875626592,
-          "duration" : 1556
+          "start" : 1598877673180,
+          "stop" : 1598877716084,
+          "duration" : 42904
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fc62651980ee2e5b5f4874561f5be11b"
+      "uid" : "7c5045f2290df4aeb54218225855f2db"
     }, {
-      "name" : "26308-MainThread",
+      "name" : "20596-MainThread",
       "children" : [ {
-        "name" : "获取桥梁行政区划",
-        "uid" : "3f853aa54d6b37a0",
-        "parentUid" : "533493a67633678d358454df8767196e",
-        "status" : "broken",
+        "name" : "输入正确账号错误密码",
+        "uid" : "e074095043a186d3",
+        "parentUid" : "7b41c79e52c0c303f97fb66787a19c2c",
+        "status" : "passed",
         "time" : {
-          "start" : 1598876360958,
-          "stop" : 1598876392170,
-          "duration" : 31212
+          "start" : 1603173839388,
+          "stop" : 1603173841053,
+          "duration" : 1665
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "d68a87f1b3d88b97",
-        "parentUid" : "533493a67633678d358454df8767196e",
+        "name" : "输入正确账号正确密码",
+        "uid" : "dea1c1534a61d4e1",
+        "parentUid" : "7b41c79e52c0c303f97fb66787a19c2c",
         "status" : "passed",
         "time" : {
-          "start" : 1598876329616,
-          "stop" : 1598876360952,
-          "duration" : 31336
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "533493a67633678d358454df8767196e"
-    }, {
-      "name" : "31892-MainThread",
-      "children" : [ {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "1d44b951dcddad36",
-        "parentUid" : "014dc5d9aa3a91d3feef42e6998fe1b1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1598921993128,
-          "stop" : 1598922012607,
-          "duration" : 19479
+          "start" : 1603173841914,
+          "stop" : 1603173844557,
+          "duration" : 2643
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "获取桥梁行政区划",
-        "uid" : "7bb3b7504bb04f94",
-        "parentUid" : "014dc5d9aa3a91d3feef42e6998fe1b1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1598922012612,
-          "stop" : 1598922014186,
-          "duration" : 1574
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "014dc5d9aa3a91d3feef42e6998fe1b1"
-    }, {
-      "name" : "26632-MainThread",
-      "children" : [ {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "c2d4798ac199b805",
-        "parentUid" : "568b422662a704a855bee9c8c9668d1d",
+        "name" : "查看APP二维码下载",
+        "uid" : "7862d3f52ef8ffdb",
+        "parentUid" : "7b41c79e52c0c303f97fb66787a19c2c",
         "status" : "passed",
         "time" : {
-          "start" : 1598922082726,
-          "stop" : 1598922102184,
-          "duration" : 19458
+          "start" : 1603173838571,
+          "stop" : 1603173839383,
+          "duration" : 812
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "获取桥梁行政区划",
-        "uid" : "4c5cf5d78e2851b",
-        "parentUid" : "568b422662a704a855bee9c8c9668d1d",
-        "status" : "broken",
+        "name" : "输入空用户",
+        "uid" : "afa2f306d4f37d05",
+        "parentUid" : "7b41c79e52c0c303f97fb66787a19c2c",
+        "status" : "passed",
         "time" : {
-          "start" : 1598922102193,
-          "stop" : 1598922103383,
-          "duration" : 1190
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "568b422662a704a855bee9c8c9668d1d"
-    }, {
-      "name" : "19536-MainThread",
-      "children" : [ {
-        "name" : "获取桥梁行政区划",
-        "uid" : "fcfa3eeb05beea6e",
-        "parentUid" : "b3bc7a02b9f0778bc95ae392434e25f8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1598923500816,
-          "stop" : 1598923501827,
-          "duration" : 1011
+          "start" : 1603173841064,
+          "stop" : 1603173841474,
+          "duration" : 410
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "492fd356dac807a4",
-        "parentUid" : "b3bc7a02b9f0778bc95ae392434e25f8",
+        "name" : "输入空密码",
+        "uid" : "66c395371f4b8544",
+        "parentUid" : "7b41c79e52c0c303f97fb66787a19c2c",
         "status" : "passed",
         "time" : {
-          "start" : 1598923471430,
-          "stop" : 1598923500809,
-          "duration" : 29379
+          "start" : 1603173841494,
+          "stop" : 1603173841909,
+          "duration" : 415
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b3bc7a02b9f0778bc95ae392434e25f8"
+      "uid" : "7b41c79e52c0c303f97fb66787a19c2c"
     }, {
       "name" : "28164-MainThread",
       "children" : [ {
         "name" : "进入桥梁设施调查界面",
-        "uid" : "5f8e14ec5c881926",
+        "uid" : "d5e544995deb4707",
         "parentUid" : "9549432a95df5ccde263b3e5310b435f",
         "status" : "passed",
         "time" : {
@@ -261,83 +668,10 @@
       } ],
       "uid" : "9549432a95df5ccde263b3e5310b435f"
     }, {
-      "name" : "27252-MainThread",
-      "children" : [ {
-        "name" : "获取桥梁行政区划",
-        "uid" : "44630c9797ad5bde",
-        "parentUid" : "7c5045f2290df4aeb54218225855f2db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1598877673180,
-          "stop" : 1598877716084,
-          "duration" : 42904
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "3fd9b37afb5532e1",
-        "parentUid" : "7c5045f2290df4aeb54218225855f2db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1598877653180,
-          "stop" : 1598877673166,
-          "duration" : 19986
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7c5045f2290df4aeb54218225855f2db"
-    }, {
-      "name" : "16632-MainThread",
-      "children" : [ {
-        "name" : "获取桥梁行政区划",
-        "uid" : "6faa0c094cb547ff",
-        "parentUid" : "c36a5a48684bf4ad3edcd2cd81b0ea91",
-        "status" : "failed",
-        "time" : {
-          "start" : 1598876048364,
-          "stop" : 1598876171059,
-          "duration" : 122695
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "8a88300f550a681d",
-        "parentUid" : "c36a5a48684bf4ad3edcd2cd81b0ea91",
-        "status" : "passed",
-        "time" : {
-          "start" : 1598876017368,
-          "stop" : 1598876048354,
-          "duration" : 30986
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c36a5a48684bf4ad3edcd2cd81b0ea91"
-    }, {
       "name" : "26940-MainThread",
       "children" : [ {
-        "name" : "获取桥梁行政区划",
-        "uid" : "9fd013b1958a258c",
-        "parentUid" : "5bbb05be7b3aa01d82df2cbc8d9ce16b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1598923841870,
-          "stop" : 1598923873148,
-          "duration" : 31278
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "进入桥梁设施调查界面",
-        "uid" : "f718f095671ae12c",
+        "uid" : "d858fc06708b4763",
         "parentUid" : "5bbb05be7b3aa01d82df2cbc8d9ce16b",
         "status" : "passed",
         "time" : {
@@ -348,43 +682,56 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "8a4266e02efcda4e",
+        "parentUid" : "5bbb05be7b3aa01d82df2cbc8d9ce16b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598923841870,
+          "stop" : 1598923873148,
+          "duration" : 31278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "5bbb05be7b3aa01d82df2cbc8d9ce16b"
     }, {
-      "name" : "25144-MainThread",
+      "name" : "24216-MainThread",
       "children" : [ {
         "name" : "获取桥梁行政区划",
-        "uid" : "3c6e3923981da8ce",
-        "parentUid" : "63b26c3070740ba7a6dc9f5c6470c051",
+        "uid" : "aa1be0822398ffec",
+        "parentUid" : "cabd320deb76e8342cbe0d144d53a0cd",
         "status" : "failed",
         "time" : {
-          "start" : 1598921796986,
-          "stop" : 1598921798808,
-          "duration" : 1822
+          "start" : 1598922463064,
+          "stop" : 1598922464785,
+          "duration" : 1721
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "进入桥梁设施调查界面",
-        "uid" : "cf120616996ea15f",
-        "parentUid" : "63b26c3070740ba7a6dc9f5c6470c051",
+        "uid" : "e3b58324b8964a7c",
+        "parentUid" : "cabd320deb76e8342cbe0d144d53a0cd",
         "status" : "passed",
         "time" : {
-          "start" : 1598921776928,
-          "stop" : 1598921796976,
-          "duration" : 20048
+          "start" : 1598922443067,
+          "stop" : 1598922463057,
+          "duration" : 19990
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "63b26c3070740ba7a6dc9f5c6470c051"
+      "uid" : "cabd320deb76e8342cbe0d144d53a0cd"
     }, {
       "name" : "22700-MainThread",
       "children" : [ {
         "name" : "获取桥梁行政区划",
-        "uid" : "9602dd28c17f766a",
+        "uid" : "35ee85bf9039708f",
         "parentUid" : "40e541d9ce9a63c300382681a1396283",
         "status" : "passed",
         "time" : {
@@ -397,7 +744,7 @@
         "parameters" : [ ]
       }, {
         "name" : "进入桥梁设施调查界面",
-        "uid" : "e927f275745815b1",
+        "uid" : "9d74c1a64407bce8",
         "parentUid" : "40e541d9ce9a63c300382681a1396283",
         "status" : "passed",
         "time" : {
@@ -413,21 +760,8 @@
     }, {
       "name" : "22284-MainThread",
       "children" : [ {
-        "name" : "获取桥梁行政区划",
-        "uid" : "64ce726a1f95d2b0",
-        "parentUid" : "bdec0a810b64a7ffdcd6384961ac2dbe",
-        "status" : "passed",
-        "time" : {
-          "start" : 1598876771539,
-          "stop" : 1598876802823,
-          "duration" : 31284
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "进入桥梁设施调查界面",
-        "uid" : "ccb541c644f03e79",
+        "uid" : "f77d4b2cc0e89f2",
         "parentUid" : "bdec0a810b64a7ffdcd6384961ac2dbe",
         "status" : "passed",
         "time" : {
@@ -438,30 +772,56 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "bdec0a810b64a7ffdcd6384961ac2dbe"
-    }, {
-      "name" : "20348-MainThread",
-      "children" : [ {
-        "name" : "进入桥梁设施调查界面",
-        "uid" : "8fd6545c6afdefca",
-        "parentUid" : "a51f927c687e7364de3480b5d95ad75d",
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "b0b92d9ac2c4442b",
+        "parentUid" : "bdec0a810b64a7ffdcd6384961ac2dbe",
         "status" : "passed",
         "time" : {
-          "start" : 1598875727345,
-          "stop" : 1598875772089,
-          "duration" : 44744
+          "start" : 1598876771539,
+          "stop" : 1598876802823,
+          "duration" : 31284
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a51f927c687e7364de3480b5d95ad75d"
+      "uid" : "bdec0a810b64a7ffdcd6384961ac2dbe"
+    }, {
+      "name" : "26632-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "f32c9aab99360dad",
+        "parentUid" : "568b422662a704a855bee9c8c9668d1d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598922102193,
+          "stop" : 1598922103383,
+          "duration" : 1190
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "d46bc7c062d2f965",
+        "parentUid" : "568b422662a704a855bee9c8c9668d1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598922082726,
+          "stop" : 1598922102184,
+          "duration" : 19458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "568b422662a704a855bee9c8c9668d1d"
     }, {
       "name" : "24304-MainThread",
       "children" : [ {
         "name" : "获取桥梁行政区划",
-        "uid" : "730c11a5aad54860",
+        "uid" : "361f8103e476564c",
         "parentUid" : "623049dcf2fe804955af93a9a388905b",
         "status" : "broken",
         "time" : {
@@ -474,7 +834,7 @@
         "parameters" : [ ]
       }, {
         "name" : "进入桥梁设施调查界面",
-        "uid" : "373f95280b90b288",
+        "uid" : "4f648e519ee5ea62",
         "parentUid" : "623049dcf2fe804955af93a9a388905b",
         "status" : "passed",
         "time" : {
@@ -487,6 +847,203 @@
         "parameters" : [ ]
       } ],
       "uid" : "623049dcf2fe804955af93a9a388905b"
+    }, {
+      "name" : "28012-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "d4778ad9b36fd0b",
+        "parentUid" : "fc62651980ee2e5b5f4874561f5be11b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598875592165,
+          "stop" : 1598875625025,
+          "duration" : 32860
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "c2eb76ccbee481be",
+        "parentUid" : "fc62651980ee2e5b5f4874561f5be11b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598875625036,
+          "stop" : 1598875626592,
+          "duration" : 1556
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fc62651980ee2e5b5f4874561f5be11b"
+    }, {
+      "name" : "31892-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "987b5ed1875260bf",
+        "parentUid" : "014dc5d9aa3a91d3feef42e6998fe1b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598921993128,
+          "stop" : 1598922012607,
+          "duration" : 19479
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "b77a3771b2f38093",
+        "parentUid" : "014dc5d9aa3a91d3feef42e6998fe1b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598922012612,
+          "stop" : 1598922014186,
+          "duration" : 1574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "014dc5d9aa3a91d3feef42e6998fe1b1"
+    }, {
+      "name" : "25144-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "872341889bfd4651",
+        "parentUid" : "63b26c3070740ba7a6dc9f5c6470c051",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598921776928,
+          "stop" : 1598921796976,
+          "duration" : 20048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "获取桥梁行政区划",
+        "uid" : "ee8e87a7f65d04a4",
+        "parentUid" : "63b26c3070740ba7a6dc9f5c6470c051",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598921796986,
+          "stop" : 1598921798808,
+          "duration" : 1822
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "63b26c3070740ba7a6dc9f5c6470c051"
+    }, {
+      "name" : "19536-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "c53cb7670f504fff",
+        "parentUid" : "b3bc7a02b9f0778bc95ae392434e25f8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598923500816,
+          "stop" : 1598923501827,
+          "duration" : 1011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "eba820eb382f3066",
+        "parentUid" : "b3bc7a02b9f0778bc95ae392434e25f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598923471430,
+          "stop" : 1598923500809,
+          "duration" : 29379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3bc7a02b9f0778bc95ae392434e25f8"
+    }, {
+      "name" : "26308-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "82679a82ba5012dc",
+        "parentUid" : "533493a67633678d358454df8767196e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598876360958,
+          "stop" : 1598876392170,
+          "duration" : 31212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "cf5062b89229780",
+        "parentUid" : "533493a67633678d358454df8767196e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876329616,
+          "stop" : 1598876360952,
+          "duration" : 31336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "533493a67633678d358454df8767196e"
+    }, {
+      "name" : "14184-MainThread",
+      "children" : [ {
+        "name" : "获取桥梁行政区划",
+        "uid" : "790f3fc38b75ff8b",
+        "parentUid" : "a9312b6b2e17904f4cc44fccf447c35c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598877035941,
+          "stop" : 1598877066932,
+          "duration" : 30991
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "71b1c565093d241a",
+        "parentUid" : "a9312b6b2e17904f4cc44fccf447c35c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598876990299,
+          "stop" : 1598877035931,
+          "duration" : 45632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9312b6b2e17904f4cc44fccf447c35c"
+    }, {
+      "name" : "20348-MainThread",
+      "children" : [ {
+        "name" : "进入桥梁设施调查界面",
+        "uid" : "6ba98a197ceb83bf",
+        "parentUid" : "a51f927c687e7364de3480b5d95ad75d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598875727345,
+          "stop" : 1598875772089,
+          "duration" : 44744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a51f927c687e7364de3480b5d95ad75d"
     } ],
     "uid" : "c90bfd4433d1bb1545e77199f1b07966"
   } ]
